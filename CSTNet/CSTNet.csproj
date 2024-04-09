@@ -1,25 +1,25 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-    <PropertyGroup>
-        <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
-        <Version>2.1.100</Version>
-        <Nullable>enable</Nullable>
-        <LangVersion>latest</LangVersion>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Authors>Tony Bark</Authors>
-        <PackageDescription>
-            Caret-Separated Text (or CST) is a key-value pair format represented by digits or words
-            as keys and the value as text enclosed between carets. ([key] ^[value]^)
+	<PropertyGroup>
+		<TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+		<Version>2.1.101-alpha</Version>
+		<Nullable>enable</Nullable>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Authors>Tony Bark</Authors>
+		<PackageDescription>
+			Caret-Separated Text (or CST) is a key-value pair format represented by digits or words
+			as keys and the value as text enclosed between carets. ([key] ^[value]^)
 
-            CSTNet provides you the framework for parsing the CST format.
-        </PackageDescription>
-        <RepositoryUrl>https://github.com/tonytins/cstdotnet</RepositoryUrl>
-        <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
-    </PropertyGroup>
+			CSTNet provides you the framework for parsing the CST format.
+		</PackageDescription>
+		<RepositoryUrl>https://github.com/tonytins/cstdotnet</RepositoryUrl>
+		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+	</PropertyGroup>
 
-    <!-- Support AOT on .NET 8+ -->
-    <PropertyGroup Condition=" '$(TargetFramework)' == 'net8.0' ">
-        <IsAotCompatible>true</IsAotCompatible>
-    </PropertyGroup>
+	<!-- Support AOT on .NET 8+ -->
+	<PropertyGroup Condition=" '$(TargetFramework)' == 'net8.0' ">
+		<IsAotCompatible>true</IsAotCompatible>
+	</PropertyGroup>
 
 </Project>

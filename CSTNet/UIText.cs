@@ -4,10 +4,10 @@ namespace CSTNet;
 
 public class UIText : IUIText
 {
-    /// <summary>
-    /// The language of the text.
-    /// </summary>
-    string Language { get; set; } = "english";
+	/// <summary>
+	/// The language of the text.
+	/// </summary>
+	string Language { get; set; } = "english";
 
     /// <summary>
     /// The base directory for the language files.
