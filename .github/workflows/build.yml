@@ -2,9 +2,9 @@ name: .NET
 
 on:
     push:
-        branches: [main, master, "releases/**"]
+        branches: [main, dev, "releases/**"]
     pull_request:
-        branches: [main, master, "releases/**"]
+        branches: [main, dev, "releases/**"]
 jobs:
     build:
         timeout-minutes: 15
